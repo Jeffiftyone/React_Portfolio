@@ -69,6 +69,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
                 download target="_blank"
+                rel="noopener noreferrer"
               >
                 Resume
               </a>
