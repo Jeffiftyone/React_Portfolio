@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import resumefile from '../assets/RESUME_PLACEHOLDER.pdf'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -37,7 +38,7 @@ function Navbar() {
            
             <li className='nav-item'>
               <Link
-                to='/aboutme'
+                to='/React_Portfolio/aboutme'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -46,7 +47,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/projects'
+                to='/React_Portfolio/projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -55,7 +56,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/contact'
+                to='/React_Portfolio/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -64,7 +65,7 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
-              <a href='./assets/RESUME_PLACEHOLDER.pdf'
+              <a href={resumefile}
                 className='nav-links'
                 onClick={closeMobileMenu}
                 download target="_blank"

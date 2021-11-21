@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.46aaa2c6.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.e3b0f0fd.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.e3b0f0fd.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.17a60f72.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.17a60f72.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.cbad1128.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.cbad1128.js.map",
-    "static/js/2.1fe3c472.chunk.js": "/React_Portfolio/static/js/2.1fe3c472.chunk.js",
-    "static/js/2.1fe3c472.chunk.js.map": "/React_Portfolio/static/js/2.1fe3c472.chunk.js.map",
+    "static/js/2.76e39142.chunk.js": "/React_Portfolio/static/js/2.76e39142.chunk.js",
+    "static/js/2.76e39142.chunk.js.map": "/React_Portfolio/static/js/2.76e39142.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.ff02bf8f23aac82a42d86a62e0675eeb.js": "/React_Portfolio/precache-manifest.ff02bf8f23aac82a42d86a62e0675eeb.js",
+    "precache-manifest.cf51f1f3d11656bc9a6934eed0f74b2b.js": "/React_Portfolio/precache-manifest.cf51f1f3d11656bc9a6934eed0f74b2b.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/main.46aaa2c6.chunk.css.map": "/React_Portfolio/static/css/main.46aaa2c6.chunk.css.map",
-    "static/js/2.1fe3c472.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.1fe3c472.chunk.js.LICENSE.txt",
+    "static/js/2.76e39142.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.76e39142.chunk.js.LICENSE.txt",
     "static/media/CodingQuiz.PNG": "/React_Portfolio/static/media/CodingQuiz.f4da388c.PNG",
     "static/media/Notetaker.PNG": "/React_Portfolio/static/media/Notetaker.d2d067a5.PNG",
     "static/media/Passwordgen.PNG": "/React_Portfolio/static/media/Passwordgen.62811769.PNG",
+    "static/media/RESUME_PLACEHOLDER.pdf": "/React_Portfolio/static/media/RESUME_PLACEHOLDER.8a68a730.pdf",
     "static/media/fitness.PNG": "/React_Portfolio/static/media/fitness.ce621242.PNG",
     "static/media/App.css": "/React_Portfolio/static/media/img-6.369d2a84.jpg",
     "static/media/video-1.mp4": "/React_Portfolio/static/media/video-1.229f5279.mp4",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cbad1128.js",
-    "static/js/2.1fe3c472.chunk.js",
+    "static/js/2.76e39142.chunk.js",
     "static/css/main.46aaa2c6.chunk.css",
-    "static/js/main.e3b0f0fd.chunk.js"
+    "static/js/main.17a60f72.chunk.js"
   ]
 }
