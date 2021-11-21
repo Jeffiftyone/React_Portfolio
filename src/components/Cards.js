@@ -1,7 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-
+import weather from '../assets/images/weatherdash.png';
+import fitness from '../assets/images/fitness.PNG';
+import notetaker from '../assets/images/Notetaker.PNG';
+import passwordgen from '../assets/images/Passwordgen.PNG';
+import codequiz from '../assets/images/CodingQuiz.PNG';
 function Cards() {
   return (
     <div className='cards'>
@@ -10,14 +14,14 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/weatherdash.png'
+              src= {weather}
               title='Weather Dashboard'
               text='An application displaying the current and forecast weather of any city using data Retrieved from openweather API'
               label='HTML/CSS/JavaScript'
               link='https://jeffiftyone.github.io/Weather_Dashboard/'
             />
             <CardItem
-              src='images/fitness.png'
+              src={fitness}
               title='Fitness Tracker'
               text='Allows the user to add and update workouts, as well as display results of previous workouts'
               label='MongoDB/ExpressJS'
@@ -26,21 +30,21 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/Notetaker.PNG'
+              src={notetaker}
               title='Note Taker'
               text='An application that allows the users to create, update and delete notes'
               label='ExpressJS'
               link="https://jeffbehnotetaker.herokuapp.com/"
             />
             <CardItem
-              src='images/Passwordgen.PNG'
+              src={passwordgen}
               title='Password Generator'
               text='Application using alerts to generate a randomied password, given criteria'
               label='JavaScript'
               link='https://jeffiftyone.github.io/Password_Generator/'
             />
             <CardItem
-              src='images/CodingQuiz.PNG'
+              src={codequiz}
               title='Coding Quiz'
               text='A quiz made to test the user on JavaScript. Utilizes timer and local storage to count and save scores'
               label='HTML/JavaScript'
