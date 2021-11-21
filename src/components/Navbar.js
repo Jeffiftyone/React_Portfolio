@@ -64,7 +64,7 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
-              <a href="./assets/RESUME_PLACEHOLDER.pdf"
+              <a href='./assets/RESUME_PLACEHOLDER.pdf'
                 className='nav-links'
                 onClick={closeMobileMenu}
                 download target="_blank"

@@ -21,7 +21,7 @@
   flex-flow: column;
 
 
-  background-image: url('../public/images/img-1.jpg');
+  background-image: url('./assets/images/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 
 
 .contact {
-  background-image: url('../public/images/img-6.jpg');
+  background-image: url('./assets/images/img-6.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
