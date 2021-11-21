@@ -27,7 +27,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/React_Portfolio/' className='navbar-logo' onClick={closeMobileMenu}>
             Jeffiftyone
           </Link>
           <div className='menu-icon' onClick={handleClick}>
