@@ -6,9 +6,20 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <img src='../images/img-home.jpg' autoPlay loop muted />
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>Hi, I'm Jeffrey</h1>
-      <p>Welcome to my site</p>
+      <p>An aspiring full stack developer from Toronto, Canada</p>
+      <p>Click a section on the Navigation Bar to get started</p>
+      <div className='hero-btns'>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+         <i class="fab fa-github"></i> Check out my GitHub!
+        </Button>
+      </div>
+      <div className='hero-btns'></div>
     </div>
   );
 }
