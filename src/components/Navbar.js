@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import resumefile from '../assets/RESUME_PLACEHOLDER.pdf'
+import resumefile from '../assets/Jeffrey_Beh_Resume.pdf'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -71,7 +71,7 @@ function Navbar() {
                 download target="_blank"
                 rel="noopener noreferrer"
               >
-                Resume
+                 <i class="fas fa-download"></i> &nbsp;Resume 
               </a>
             </li>
           </ul>
