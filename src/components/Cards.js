@@ -39,7 +39,7 @@ function Cards() {
             <CardItem
               src={passwordgen}
               title='Password Generator'
-              text='Application using alerts to generate a randomied password, given criteria'
+              text='Application using alerts to generate a randomized password, given criteria'
               label='JavaScript'
               link='https://jeffiftyone.github.io/Password_Generator/'
             />
