@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd9ada7beaa22ccafb207f5eb5671b8c",
+    "revision": "46c477edeac624549d335d4067f3edd9",
     "url": "/React_Portfolio/index.html"
   },
   {
-    "revision": "c2cb90e506cb2e95214d",
+    "revision": "479479fdfda1712db558",
     "url": "/React_Portfolio/static/css/main.46aaa2c6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/js/2.76e39142.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2cb90e506cb2e95214d",
-    "url": "/React_Portfolio/static/js/main.b81db9be.chunk.js"
+    "revision": "479479fdfda1712db558",
+    "url": "/React_Portfolio/static/js/main.2b7441cb.chunk.js"
   },
   {
     "revision": "76fa0f473dd6d2bf0a74",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/CodingQuiz.f4da388c.PNG"
   },
   {
+    "revision": "2262d86f6d271b71969486848c093276",
+    "url": "/React_Portfolio/static/media/Jeffrey_Beh_Resume.2262d86f.pdf"
+  },
+  {
     "revision": "d2d067a568d3960f0658c6c077e8135b",
     "url": "/React_Portfolio/static/media/Notetaker.d2d067a5.PNG"
   },
   {
     "revision": "628117692cedc99adbe981c96c52d787",
     "url": "/React_Portfolio/static/media/Passwordgen.62811769.PNG"
-  },
-  {
-    "revision": "8a68a73051d15350cce87a8e3b16228f",
-    "url": "/React_Portfolio/static/media/RESUME_PLACEHOLDER.8a68a730.pdf"
   },
   {
     "revision": "ce621242b796f5c9c458b72f959dcf4d",
