@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bacefdcdcf8825d559a57c7b7aeedd2a",
+    "revision": "b90c327e958e52ba07982cb987c05184",
     "url": "/React_Portfolio/index.html"
   },
   {
-    "revision": "025bb39e167b5a5e1ceb",
-    "url": "/React_Portfolio/static/css/main.46aaa2c6.chunk.css"
+    "revision": "0156f443fb6cb1ccc8ab",
+    "url": "/React_Portfolio/static/css/main.eb57ccf1.chunk.css"
   },
   {
     "revision": "a6b09934ae8fb56e8aff",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/js/2.76e39142.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "025bb39e167b5a5e1ceb",
-    "url": "/React_Portfolio/static/js/main.cf35e50f.chunk.js"
+    "revision": "0156f443fb6cb1ccc8ab",
+    "url": "/React_Portfolio/static/js/main.95ccb0e4.chunk.js"
   },
   {
     "revision": "76fa0f473dd6d2bf0a74",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/CodingQuiz.f4da388c.PNG"
   },
   {
-    "revision": "2262d86f6d271b71969486848c093276",
-    "url": "/React_Portfolio/static/media/Jeffrey_Beh_Resume.2262d86f.pdf"
+    "revision": "5620a9fd96f29209eb3ab25bf7ad9229",
+    "url": "/React_Portfolio/static/media/Jeffrey_Beh_Resume_2022.5620a9fd.pdf"
   },
   {
     "revision": "d2d067a568d3960f0658c6c077e8135b",

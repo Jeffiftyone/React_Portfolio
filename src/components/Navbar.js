@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import resumefile from '../assets/Jeffrey_Beh_Resume.pdf'
+import resumefile from '../assets/Jeffrey_Beh_Resume_2022.pdf'
 
 function Navbar() {
   const [click, setClick] = useState(false);
