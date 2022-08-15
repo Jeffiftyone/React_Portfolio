@@ -57,15 +57,3 @@
 
 
 
-.contact {
-  background-image: url('./assets/images/img-6.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 20px;
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-}
