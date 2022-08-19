@@ -5,16 +5,19 @@ import React from 'react';
 function Contact() {
 
   return (
-    <div className="contact h-full flex justify-center flex-col">
-      <div className="w-2/3 m-auto p-8 shadow-lg">
-        <h1>
-        <i class="fas fa-comment-alt"></i> &nbsp;
-        <span>Contact Me</span>
-        </h1>
-      </div>
-
+    <>
+   <container className="contact"> 
+    <div class="col-sm"> 
+    <div class="container">
+      <div className="card">
+      <header><h2><i class="fas fa-paper-plane"></i> &nbsp;Contact Me</h2>
+      </header>
+      <p>Form here</p>
     </div>
-    
+   </div>
+  </div>
+  </container>
+  </>
   );
 }
 

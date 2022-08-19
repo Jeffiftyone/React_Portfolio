@@ -28,6 +28,24 @@
   color: #212121;
   z-index: -1;
 }
+
+.contact {
+  display:flex;
+  height: 90vh;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  flex-flow: column;
+
+
+  background-image: url('./assets/images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #212121;
+  z-index: -1;
+}
+
+
 /* Styling for info Cards that are in flex*/
 .card{
   width:100%;
@@ -54,6 +72,7 @@
   font-size: 100;
   padding-left:20px; 
 }
+
 
 
 
