@@ -30,12 +30,12 @@
 }
 
 .contact {
-  display:flex;
+  display:block;
   height: 90vh;
   flex-wrap:wrap;
   justify-content: space-evenly;
   flex-flow: column;
-
+  margin-left:auto;
 
   background-image: url('./assets/images/img-1.jpg');
   background-position: center;
@@ -43,7 +43,13 @@
   background-repeat: no-repeat;
   color: #212121;
   z-index: -1;
+
 }
+ .contact label{
+    padding: 25px 25px 25px 25px;
+
+ }
+
 
 
 /* Styling for info Cards that are in flex*/
