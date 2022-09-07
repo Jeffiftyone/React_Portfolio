@@ -9,7 +9,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_mk32l2p', 'template_jr43fg', form.current, '2k-JxL_9QErYMB-WjG8my')
+    emailjs.sendForm('service_mk32l2p', 'template_jrc43fg', form.current, 'AZx7PyMfx0jFCiJwd')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -22,7 +22,7 @@ export const Contact = () => {
     <container className="contact"> 
      <div class="col-sm"> 
      <div class="container">
-       <div className="card">
+       <div className="contact-card">
        <header><h2><i class="fas fa-paper-plane"></i> &nbsp;Contact Me</h2>
       </header>
    <form ref={form} onSubmit={sendEmail}>

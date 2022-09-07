@@ -18,9 +18,6 @@ export default function Aboutme() {
           <br/>
           I enjoy programming as I am able to use it as another creative outlet while also learning new ways to use technology. 
          <br/>
-         <br/>
-          For example, this website was made while I was learning to use ReactJS!
-          <br/>
           <br/>
          Dancing and Cooking are hobbies of mine as prior to pursuing my tech career, I was a long time breakdancer and have had previous experience in the food industry.<br/> 
       </p>
@@ -34,13 +31,11 @@ export default function Aboutme() {
           Leadership and Team Communication with a background in sales 
           <br/> 
           <br/> 
-          Well-versed in: 
+          <span class="bolded">Languages:</span> Java, HTML, CSS, Javascript, SQL
+          <br/>
+          <span class="bolded">Frameworks:</span>  NodeJS, ExpressJS, jQuery, React, Bootstrap
           <br/> 
-          Java 
-          <br/> 
-          Front End Technologies such as HTML5,CSS,JavaScript 
-          <br/> 
-          Back End technologies such as SQL and MongoDB 
+          <span class="bolded">Other:</span>  Git, Postman, MongoDB, Firebase 
           <br/> 
           <br/> 
           Currently learning about Data Structures and improving my efficiency of code through the use of different algorithms. <br/> 
