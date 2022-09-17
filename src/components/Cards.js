@@ -10,6 +10,7 @@ function Cards() {
   return (
     <div className='cards'>
       <h1>Here are some of my Projects</h1>
+      <p>Click a Card to visit the GitHub Repository, links to deploy the application are in the README</p>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -18,14 +19,14 @@ function Cards() {
               title='Weather Dashboard'
               text='An application displaying the current and forecast weather of any city using data Retrieved from openweather API'
               label='HTML/CSS/JavaScript'
-              link='https://jeffiftyone.github.io/Weather_Dashboard/'
+              link='https://github.com/Jeffiftyone/Weather_Dashboard'
             />
             <CardItem
               src={fitness}
               title='Fitness Tracker'
               text='Allows the user to add and update workouts, as well as display results of previous workouts'
               label='MongoDB/ExpressJS'
-              link='https://jeffiftyone-fitnesstracker.herokuapp.com/'
+              link='https://github.com/Jeffiftyone/Fitness_Tracker'
             />
           </ul>
           <ul className='cards__items'>
@@ -34,7 +35,7 @@ function Cards() {
               title='Note Taker'
               text='An application that allows the users to create, update and delete notes'
               label='ExpressJS'
-              link="https://jeffbehnotetaker.herokuapp.com/"
+              link="https://github.com/Jeffiftyone/Note_Taker"
             />
             <CardItem
               src={passwordgen}

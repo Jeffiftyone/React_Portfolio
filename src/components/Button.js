@@ -10,7 +10,7 @@ export const Button = ({
   type,
   onClick,
   buttonStyle,
-  buttonSize
+  buttonSize,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -19,14 +19,26 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
+    <>
     <a href='https://github.com/Jeffiftyone' className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
-        {children}
+       <i class="fa-brands fa-github"></i> Check out My GitHub!
       </button>
     </a>
+
+    <a href='https://www.linkedin.com/in/jeffreybeh/' className='btn-mobile'>
+    <button
+      className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+      onClick={onClick}
+      type={type}
+    >
+      Connect with me on Linked<i class="fa-brands fa-linkedin"></i>
+    </button>
+    </a>
+    </>
   );
 };

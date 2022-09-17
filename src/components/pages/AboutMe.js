@@ -6,11 +6,9 @@ export default function Aboutme() {
     <>
 
 <container className='aboutme'>
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-    <div className="card">
-      <header><h2>About Me</h2><i className="fas fa-portrait"></i></header>
+    <div className="aboutme-container">
+    <div className="about-card">
+      <header><h2><i className="fas fa-portrait"></i> About Me</h2></header>
       <p>
       <br/>
           Hi! I'm Jeffrey, a 24 year old Web and Software Developer.
@@ -19,13 +17,13 @@ export default function Aboutme() {
           I enjoy programming as I am able to use it as another creative outlet while also learning new ways to use technology. 
          <br/>
           <br/>
-         Dancing and Cooking are hobbies of mine as prior to pursuing my tech career, I was a long time breakdancer and have had previous experience in the food industry.<br/> 
+         Dancing and Cooking are hobbies of mine as prior to pursuing my tech career, I was a long time breakdancer and have had previous experience in Sales and the Food industry.<br/> 
       </p>
   </div>
-    </div>
-    <div class="col-sm">
-    <div className="card">
-      <header><h2>Skills</h2><i className="fas fa-code"></i></header>
+ 
+ 
+    <div className="about-card">
+      <header><h2><i className="fas fa-code"></i> Skills</h2></header>
       <p>
       <br/>
           Leadership and Team Communication with a background in sales 
@@ -42,24 +40,21 @@ export default function Aboutme() {
       
       </p>
   </div>
-    </div>
-    <div class="col-sm">
-    <div className="card">
-      <header><h2>Education</h2><i className="fas fa-graduation-cap"></i></header>
+
+    <div className="about-card">
+      <header><h2><i className="fas fa-graduation-cap"></i> Education </h2></header>
       <p>
       <br/>
-      Coding Bootcamp Certificate at the University of Toronto<br/> 
-      Graduated 2021
-      <br/>
-      <br/>
       Hons. B.A. Information Technology and Computer Studies at York University<br/> 
-      Graduated 2020 <br/>
-      </p>
-  </div>
-    </div>
-  </div>
-</div>
+      Graduated 2021 <br/>
+      <br/>
+      Coding Bootcamp Certificate at the University of Toronto<br/> 
+      Graduated 2022
+      <br/>
 
+      </p>
+      </div>
+      </div>
 </container>
 </>
   );

@@ -16,8 +16,10 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-         <i class="fab fa-github"></i> Check out my GitHub!
+         
         </Button>
+
+        
       </div>
       <div className='hero-btns'></div>
     </div>

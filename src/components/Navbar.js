@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import resumefile from '../assets/Jeffrey_Beh_Resume_2022.pdf'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -22,6 +24,17 @@ function Navbar() {
     showButton();
   }, []);
 
+  const notify = () =>{
+    toast.info(`✨ Downloading Resume!`, {
+      position: "bottom-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      });
+  };
   window.addEventListener('resize', showButton);
 
   return (
@@ -67,7 +80,7 @@ function Navbar() {
             <li className='nav-item'>
               <a href={resumefile}
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={notify}
                 download target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,8 +88,21 @@ function Navbar() {
               </a>
             </li>
           </ul>
+
         </div>
+
       </nav>
+      <ToastContainer
+    position="bottom-center"
+    autoClose={5000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    />
     </>
   );
 }

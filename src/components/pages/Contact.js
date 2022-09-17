@@ -40,20 +40,20 @@ const notify = () =>{
      <div class="col-sm"> 
      <div class="container">
        <div className="contact-card">
-       <header><h2><i class="fas fa-paper-plane"></i> &nbsp;Write me a Message!</h2>
+       <header><h2>Write me a Message!</h2>
       </header>
    <form ref={form} onSubmit={sendEmail}>
       
       <div class="input-group">
-      <label>Name</label>
+      <label>Name:</label>
       <input type="text" name="user_name" required />
       </div>
       <div class="input-group">
-      <label>Email</label>
+      <label>Email:</label>
       <input type="email" name="user_email" required />
       </div>
       <div class="input-group">
-      <label>Message</label>
+      <label>Message:</label>
       <textarea name="message" required />
       </div>
       
@@ -66,17 +66,7 @@ const notify = () =>{
    </div>
   </div>
   </container>
-  <ToastContainer
-    position="top-center"
-    autoClose={5000}
-    hideProgressBar={false}
-    newestOnTop={false}
-    closeOnClick
-    rtl={false}
-    pauseOnFocusLoss
-    draggable
-    pauseOnHover
-    />
+
   </>
   );
 };

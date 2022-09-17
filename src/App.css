@@ -7,33 +7,70 @@
 
 .home {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
+
+
+/*ABOUT ME SECTION CSS*/
 .aboutme {
+  background-color: #212121;
+  z-index: -1;
   display:flex;
-  height: 100vh;
-  flex-wrap:wrap;
   justify-content: space-evenly;
-  flex-flow: column;
-
-
+  flex-flow:row;
   background-image: url('./assets/images/img-1.jpg');
   background-position: center;
+
   background-size: cover;
   background-repeat: no-repeat;
-  color: #212121;
-  z-index: -1;
+ 
 }
 
-.projects {
-  background-color: black;
-  z-index: -1;
+.aboutme-container{
+  margin-bottom: 50px;
+  display:flex;
+}
+.about-card{
+  width: 30%;
+  display: block;
+  margin:auto;
+  height: auto;
+  padding:10px;
+  background-color:rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: large;
+}
+.about-card header{
+  color: black;
+  margin: 0;
+  text-align:center;
+  font-family: Helvetica, sans-serif;
+  font-size: 125%;;
+
+}
+@media (min-width:961px) {
+  .aboutme {
+    height: 100vh;
+  }
+}
+@media (max-width:960px) {
+  .aboutme-container {
+    display: block;
+  }
+  .about-card{
+    width: 70%;
+  }
 }
 
+
+
+
+/* CONTACT SECTION */
 .contact {
   display:flex;
   height: 100vh;
@@ -42,43 +79,16 @@
   flex-flow: column;
 
   background-image: url('./assets/images/img-1.jpg');
-  background-position: center;
+  background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #212121;
   z-index: -1;
+  
 
 }
-
-
-
-/* Styling for info Cards that are in flex*/
-.card{
-  margin: auto;
-  margin-top: -200px;
-  width:100%;
-  padding:10px;
-  background-color:rgba(255, 255, 255, 0.75);
-  border-radius: 5px;
-
-}
-
-.card header{
-  text-align:center;
-  font-family: Helvetica, sans-serif;
-  font-size: 125%;;
-}
-
-
-.card p{
-  text-align: left; 
-  font-family: Helvetica, sans-serif;
-  font-size: 100;
-  padding-left:20px; 
-}
-
 .contact-card{
-  width:50%;
+  width:70%;
   margin:auto;
   padding:10px;
   background-color:rgba(31, 31, 31, 0.7);
@@ -86,7 +96,6 @@
   margin-top: 50px;
 
 }
-
 .contact-card header{
   color: white;
   margin: 0;
@@ -118,13 +127,16 @@
   font-size: 1.25rem;
 }
 .input-group input {
+  width: 100%;
   font-size: 1.25rem;
   padding: 0.5rem;
   background-color:rgba(255, 255, 255, 0.3)
 }
 
 .input-group textarea {
+  width: 100%;
   font-size: 1.25rem;
   padding: 0.5rem;
   background-color:rgba(255, 255, 255, 0.3)
 }
+
