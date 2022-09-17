@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2985a45350c497bc7635e36bd7138a88",
+    "revision": "2c76c9ca1b13afc7ed95266a2b1eeba5",
     "url": "/React_Portfolio/index.html"
   },
   {
-    "revision": "37198665a417a4a3d16c",
-    "url": "/React_Portfolio/static/css/main.eb57ccf1.chunk.css"
+    "revision": "5af346c0f9f4c11e86c1",
+    "url": "/React_Portfolio/static/css/2.14ee1281.chunk.css"
   },
   {
-    "revision": "a6b09934ae8fb56e8aff",
-    "url": "/React_Portfolio/static/js/2.76e39142.chunk.js"
+    "revision": "8155f93d74e20abaa983",
+    "url": "/React_Portfolio/static/css/main.a85f2218.chunk.css"
+  },
+  {
+    "revision": "5af346c0f9f4c11e86c1",
+    "url": "/React_Portfolio/static/js/2.012fade2.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/React_Portfolio/static/js/2.76e39142.chunk.js.LICENSE.txt"
+    "url": "/React_Portfolio/static/js/2.012fade2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37198665a417a4a3d16c",
-    "url": "/React_Portfolio/static/js/main.c758d754.chunk.js"
+    "revision": "8155f93d74e20abaa983",
+    "url": "/React_Portfolio/static/js/main.74c4c548.chunk.js"
   },
   {
     "revision": "76fa0f473dd6d2bf0a74",
@@ -28,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/CodingQuiz.f4da388c.PNG"
   },
   {
-    "revision": "1e6dd7489629ce55e0023ad6aefa2afd",
-    "url": "/React_Portfolio/static/media/Jeffrey_Beh_Resume_2022.1e6dd748.pdf"
+    "revision": "4ae9bf7483a61b402959287a7e97bf9a",
+    "url": "/React_Portfolio/static/media/Jeffrey_Beh_Resume_2022.4ae9bf74.pdf"
   },
   {
     "revision": "d2d067a568d3960f0658c6c077e8135b",
@@ -44,12 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/fitness.ce621242.PNG"
   },
   {
-    "revision": "cd1d1c978d0030f14f1d8a7690eb8398",
-    "url": "/React_Portfolio/static/media/img-1.cd1d1c97.jpg"
-  },
-  {
-    "revision": "369d2a847d6d7aa6ef24fc4b1a17204f",
-    "url": "/React_Portfolio/static/media/img-6.369d2a84.jpg"
+    "revision": "5912ef89cd9da8be8becf708dc73a8c6",
+    "url": "/React_Portfolio/static/media/img-1.5912ef89.jpg"
   },
   {
     "revision": "229f5279475d67e3cf902f7ab5cd818b",
