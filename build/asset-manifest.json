@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.a85f2218.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.74c4c548.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.74c4c548.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.78336705.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.7dbef19f.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.7dbef19f.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.cbad1128.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.cbad1128.js.map",
     "static/css/2.14ee1281.chunk.css": "/React_Portfolio/static/css/2.14ee1281.chunk.css",
     "static/js/2.012fade2.chunk.js": "/React_Portfolio/static/js/2.012fade2.chunk.js",
     "static/js/2.012fade2.chunk.js.map": "/React_Portfolio/static/js/2.012fade2.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.99d33bbb2877cae6e03332e1a4256fa3.js": "/React_Portfolio/precache-manifest.99d33bbb2877cae6e03332e1a4256fa3.js",
+    "precache-manifest.d4e6f04b9858021c5a56d38f60908a54.js": "/React_Portfolio/precache-manifest.d4e6f04b9858021c5a56d38f60908a54.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.14ee1281.chunk.css.map": "/React_Portfolio/static/css/2.14ee1281.chunk.css.map",
-    "static/css/main.a85f2218.chunk.css.map": "/React_Portfolio/static/css/main.a85f2218.chunk.css.map",
+    "static/css/main.78336705.chunk.css.map": "/React_Portfolio/static/css/main.78336705.chunk.css.map",
     "static/js/2.012fade2.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.012fade2.chunk.js.LICENSE.txt",
     "static/media/CodingQuiz.PNG": "/React_Portfolio/static/media/CodingQuiz.f4da388c.PNG",
     "static/media/Jeffrey_Beh_Resume_2022.pdf": "/React_Portfolio/static/media/Jeffrey_Beh_Resume_2022.4ae9bf74.pdf",
     "static/media/Notetaker.PNG": "/React_Portfolio/static/media/Notetaker.d2d067a5.PNG",
     "static/media/Passwordgen.PNG": "/React_Portfolio/static/media/Passwordgen.62811769.PNG",
+    "static/media/devspace.PNG": "/React_Portfolio/static/media/devspace.8f5fe725.PNG",
     "static/media/fitness.PNG": "/React_Portfolio/static/media/fitness.ce621242.PNG",
-    "static/media/Cards.css": "/React_Portfolio/static/media/img-1.5912ef89.jpg",
+    "static/media/App.css": "/React_Portfolio/static/media/img13.e5051926.jpg",
+    "static/media/teachthrutalk.PNG": "/React_Portfolio/static/media/teachthrutalk.aca438d2.PNG",
     "static/media/video-1.mp4": "/React_Portfolio/static/media/video-1.229f5279.mp4",
     "static/media/weatherdash.png": "/React_Portfolio/static/media/weatherdash.8c73fab3.png"
   },
@@ -27,7 +29,7 @@
     "static/js/runtime-main.cbad1128.js",
     "static/css/2.14ee1281.chunk.css",
     "static/js/2.012fade2.chunk.js",
-    "static/css/main.a85f2218.chunk.css",
-    "static/js/main.74c4c548.chunk.js"
+    "static/css/main.78336705.chunk.css",
+    "static/js/main.7dbef19f.chunk.js"
   ]
 }

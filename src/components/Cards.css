@@ -1,9 +1,10 @@
 .cards {
-  padding: 4rem;
+  /* padding: 4rem;
   background-image: url('../assets/images/img-1.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: #fff;
 }
 
 .cards h1 {
@@ -59,7 +60,7 @@
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.2));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
@@ -120,6 +121,48 @@
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+}
+
+.wrapper {
+  height: 20vh;
+  /*centering text*/
+  display: grid;
+  place-items: center;
+}
+
+.typing {
+  width: 29ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+  font-family: monospace;
+}
+.subtitle {
+
+  opacity: 0;
+  font-family: monospace;
+  animation: fadeIn 3s ease 2000ms forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+@keyframes fadeIn {
+  to{
+    opacity: 0.9;
+  transform: translateY(0);
+  }
 }
 
 @media only screen and (min-width: 1200px) {

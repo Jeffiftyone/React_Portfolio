@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c76c9ca1b13afc7ed95266a2b1eeba5",
+    "revision": "7fffbe6d45a82ca94efd5e04cebcf503",
     "url": "/React_Portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/css/2.14ee1281.chunk.css"
   },
   {
-    "revision": "8155f93d74e20abaa983",
-    "url": "/React_Portfolio/static/css/main.a85f2218.chunk.css"
+    "revision": "78041020fc97902e556b",
+    "url": "/React_Portfolio/static/css/main.78336705.chunk.css"
   },
   {
     "revision": "5af346c0f9f4c11e86c1",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/js/2.012fade2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8155f93d74e20abaa983",
-    "url": "/React_Portfolio/static/js/main.74c4c548.chunk.js"
+    "revision": "78041020fc97902e556b",
+    "url": "/React_Portfolio/static/js/main.7dbef19f.chunk.js"
   },
   {
     "revision": "76fa0f473dd6d2bf0a74",
@@ -44,12 +44,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/Passwordgen.62811769.PNG"
   },
   {
+    "revision": "8f5fe725046a1791c898b4e1e49b48fe",
+    "url": "/React_Portfolio/static/media/devspace.8f5fe725.PNG"
+  },
+  {
     "revision": "ce621242b796f5c9c458b72f959dcf4d",
     "url": "/React_Portfolio/static/media/fitness.ce621242.PNG"
   },
   {
-    "revision": "5912ef89cd9da8be8becf708dc73a8c6",
-    "url": "/React_Portfolio/static/media/img-1.5912ef89.jpg"
+    "revision": "e251387f688dc2a5eaa8b760232d47b4",
+    "url": "/React_Portfolio/static/media/img12.e251387f.jpg"
+  },
+  {
+    "revision": "e505192633f29f5c98489befabe638b4",
+    "url": "/React_Portfolio/static/media/img13.e5051926.jpg"
+  },
+  {
+    "revision": "aca438d2bdc3baadae28f9638da34f12",
+    "url": "/React_Portfolio/static/media/teachthrutalk.aca438d2.PNG"
   },
   {
     "revision": "229f5279475d67e3cf902f7ab5cd818b",

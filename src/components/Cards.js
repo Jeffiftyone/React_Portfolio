@@ -6,30 +6,44 @@ import fitness from '../assets/images/fitness.PNG';
 import notetaker from '../assets/images/Notetaker.PNG';
 import passwordgen from '../assets/images/Passwordgen.PNG';
 import codequiz from '../assets/images/CodingQuiz.PNG';
+import teachthrutalk from '../assets/images/teachthrutalk.PNG';
+import devspace from '../assets/images/devspace.PNG';
+
 function Cards() {
   return (
-    <div className='cards'>
-      <h1>Here are some of my Projects</h1>
-      <p>Click a Card to visit the GitHub Repository, links to deploy the application are in the README</p>
+  <div className='cards'>
+      <div class="wrapper">
+        <div class="typing">
+      Here are some of my Projects! 
+        </div>
+            <div class= "subtitle">👇 Click on a Card to view the GitHub repository, links to deploy the applications are in the README  </div>
+        </div>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src= {weather}
-              title='Weather Dashboard'
-              text='An application displaying the current and forecast weather of any city using data Retrieved from openweather API'
-              label='HTML/CSS/JavaScript'
-              link='https://github.com/Jeffiftyone/Weather_Dashboard'
+              src= {devspace}
+              title='Dev Space'
+              text='An instant chat application for developers to learn, communicate, and collaborate. Created for developers by developers.'
+              label='MongoDB/Express/React/Node/Firebase'
+              link='https://github.com/nikhil-kharbanda/UofT_DevSpace'
             />
             <CardItem
+              src={teachthrutalk}
+              title='Teach Thru Talk'
+              text='A forum style application allowing users to learn different languages by highlighting unknown phrases to translate to their native language and having conversations from other users all over the world. '
+              label='MongoDB/ExpressJS/Bootstrap'
+              link='https://github.com/FilipAlH/TeachThruTalk'
+            />
+          </ul>
+          <ul className='cards__items'>
+          <CardItem
               src={fitness}
               title='Fitness Tracker'
               text='Allows the user to add and update workouts, as well as display results of previous workouts'
               label='MongoDB/ExpressJS'
               link='https://github.com/Jeffiftyone/Fitness_Tracker'
             />
-          </ul>
-          <ul className='cards__items'>
           <CardItem
               src={notetaker}
               title='Note Taker'
@@ -37,20 +51,14 @@ function Cards() {
               label='ExpressJS'
               link="https://github.com/Jeffiftyone/Note_Taker"
             />
-            <CardItem
-              src={passwordgen}
-              title='Password Generator'
-              text='Application using alerts to generate a randomized password, given criteria'
-              label='JavaScript'
-              link='https://jeffiftyone.github.io/Password_Generator/'
+             <CardItem
+              src= {weather}
+              title='Weather Dashboard'
+              text='An application displaying the current and forecast weather of any city using data Retrieved from openweather API'
+              label='HTML/CSS/JavaScript'
+              link='https://github.com/Jeffiftyone/Weather_Dashboard'
             />
-            <CardItem
-              src={codequiz}
-              title='Coding Quiz'
-              text='A quiz made to test the user on JavaScript. Utilizes timer and local storage to count and save scores'
-              label='HTML/JavaScript'
-              link='https://jeffiftyone.github.io/Coding_Quiz/'
-            />
+
           </ul>
         </div>
       </div>

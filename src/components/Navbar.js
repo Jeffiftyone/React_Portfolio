@@ -84,7 +84,7 @@ function Navbar() {
                 download target="_blank"
                 rel="noopener noreferrer"
               >
-                 <i class="fas fa-download"></i> &nbsp;Resume 
+                 <i class="fas fa-download"></i> &nbsp;Download Resume
               </a>
             </li>
           </ul>
