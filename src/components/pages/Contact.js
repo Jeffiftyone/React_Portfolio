@@ -7,32 +7,35 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export const Contact = () => {
   
-const notify = () =>{
-  toast.success('Message Sent!', {
-    position: "top-center",
-    autoClose: 5000,
-    hideProgressBar: false,
-    closeOnClick: true,
-    pauseOnHover: true,
-    draggable: true,
-    progress: undefined,
-    });;
-};
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    notify();
-    e.target.reset();
+    
 
-    emailjs.sendForm('service_mk32l2p', 'template_jrc43fg', form.current, 'AZx7PyMfx0jFCiJwd')
+    emailjs.sendForm('service_mk32l2p', 'template_i77we9b', form.current, 'orLVQBR4ovBVsKy5n')
       .then((result) => {
           console.log(result.text);
+           notify();
       }, (error) => {
           console.log(error.text);
+
       });
+      e.target.reset();
   };
 
+  const notify = () =>{
+    toast.success('Message Sent!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      });;
+  };
 
   return (
     <>
@@ -50,7 +53,7 @@ const notify = () =>{
       </div>
       <div class="input-group">
       <label>Email:</label>
-      <input type="email" name="user_email" required />
+      <input type="email" name="user_email"  required />
       </div>
       <div class="input-group">
       <label>Message:</label>
