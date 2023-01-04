@@ -11,13 +11,19 @@ export default function Aboutme() {
       <header><h2><i className="fas fa-portrait"></i> About Me</h2></header>
       <p>
       <br/>
-          Hi! I'm Jeffrey, a 24 year old Web and Software Developer.
-          <br/>
-          <br/>
-          I enjoy programming as I am able to use it as another creative outlet while also learning new ways to use technology. 
+      Hello, my name is Jeffrey and I am a graduate in Information Technology from York University. Throughout my studies, I developed a strong foundation in programming and technology, and have a passion for continuing to learn and grow in this field. 
+      <br/>
+      <br/>
+      I have completed coursework in a variety of programming languages, including Java, SQL, and JavaScript, and have worked on group projects that required the use of software development methodologies such as agile and waterfall. 
+      <br/>
+      <br/>
+      In addition, I recently completed a coding bootcamp where I gained hands-on experience in web development, data structures, and algorithms. 
+     <br />
+     <br /> 
+      I am excited to bring my passion for technology and my skills in programming to a new opportunity, and believe that I can make a positive contribution to any team.
          <br/>
-          <br/>
-         Dancing and Cooking are hobbies of mine as prior to pursuing my tech career, I was a long time breakdancer and have had previous experience in Sales and the Food industry.<br/> 
+         <br/>
+         
       </p>
   </div>
  
@@ -25,9 +31,6 @@ export default function Aboutme() {
     <div className="about-card">
       <header><h2><i className="fas fa-code"></i> Skills</h2></header>
       <p>
-      <br/>
-          Leadership and Team Communication with a background in sales 
-          <br/> 
           <br/> 
           <span class="bolded">Languages:</span> Java, HTML, CSS, Javascript, SQL
           <br/>

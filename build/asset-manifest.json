@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.78336705.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.d23ffa01.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.d23ffa01.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.720305af.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.84b828dd.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.84b828dd.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.cbad1128.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.cbad1128.js.map",
     "static/css/2.14ee1281.chunk.css": "/React_Portfolio/static/css/2.14ee1281.chunk.css",
     "static/js/2.012fade2.chunk.js": "/React_Portfolio/static/js/2.012fade2.chunk.js",
     "static/js/2.012fade2.chunk.js.map": "/React_Portfolio/static/js/2.012fade2.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.9e5f30c24cf42460d0fc5a6917c86f9f.js": "/React_Portfolio/precache-manifest.9e5f30c24cf42460d0fc5a6917c86f9f.js",
+    "precache-manifest.0e198345de58967217bb4af94d7e7f60.js": "/React_Portfolio/precache-manifest.0e198345de58967217bb4af94d7e7f60.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.14ee1281.chunk.css.map": "/React_Portfolio/static/css/2.14ee1281.chunk.css.map",
-    "static/css/main.78336705.chunk.css.map": "/React_Portfolio/static/css/main.78336705.chunk.css.map",
+    "static/css/main.720305af.chunk.css.map": "/React_Portfolio/static/css/main.720305af.chunk.css.map",
     "static/js/2.012fade2.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.012fade2.chunk.js.LICENSE.txt",
     "static/media/CodingQuiz.PNG": "/React_Portfolio/static/media/CodingQuiz.f4da388c.PNG",
     "static/media/Jeffrey_Beh_Resume_2022.pdf": "/React_Portfolio/static/media/Jeffrey_Beh_Resume_2022.4ae9bf74.pdf",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.cbad1128.js",
     "static/css/2.14ee1281.chunk.css",
     "static/js/2.012fade2.chunk.js",
-    "static/css/main.78336705.chunk.css",
-    "static/js/main.d23ffa01.chunk.js"
+    "static/css/main.720305af.chunk.css",
+    "static/js/main.84b828dd.chunk.js"
   ]
 }

@@ -31,11 +31,18 @@
 }
 
 .aboutme-container{
-  margin-bottom: 50px;
+  margin-bottom: 120px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
   display:flex;
+  flex-direction: column;
+   flex-wrap: wrap;
+  
+   
 }
 .about-card{
-  width: 30%;
+  width: 40%;
   display: block;
   margin:auto;
   height: auto;
@@ -45,6 +52,7 @@
   margin-top: 50px;
   font-size: large;
 }
+
 .about-card header{
   color: black;
   margin: 0;
@@ -57,6 +65,7 @@
   .aboutme {
     height: 100vh;
   }
+  
 }
 @media (max-width:960px) {
   .aboutme-container {
