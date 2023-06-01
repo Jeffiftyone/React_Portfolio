@@ -8,6 +8,7 @@ import passwordgen from '../assets/images/Passwordgen.PNG';
 import codequiz from '../assets/images/CodingQuiz.PNG';
 import teachthrutalk from '../assets/images/teachthrutalk.PNG';
 import devspace from '../assets/images/devspace.PNG';
+import quizapp from '../assets/images/QuizApp.PNG';
 
 function Cards() {
   return (
@@ -21,36 +22,42 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
-              src= {devspace}
-              title='Dev Space'
-              text='An instant chat application for developers to learn, communicate, and collaborate. Created for developers by developers.'
-              label='MongoDB/Express/React/Node/Firebase'
-              link='https://github.com/nikhil-kharbanda/UofT_DevSpace'
-            />
-            <CardItem
-              src={teachthrutalk}
-              title='Teach Thru Talk'
-              text='A forum style application allowing users to learn different languages by highlighting unknown phrases to translate to their native language and having conversations from other users all over the world. '
-              label='MongoDB/ExpressJS/Bootstrap'
-              link='https://github.com/FilipAlH/TeachThruTalk'
-            />
-          </ul>
-          <ul className='cards__items'>
+      
           <CardItem
+              src={quizapp}
+              title='Mobile Quiz App'
+              text='A Quiz application that tests knowledge of different web techologies'
+              label='Dart/Flutter/Firebase'
+              link="https://github.com/Jeffiftyone/quizapp"
+            />
+
+            <CardItem
               src={fitness}
               title='Fitness Tracker'
               text='Allows the user to add and update workouts, as well as display results of previous workouts'
               label='MongoDB/ExpressJS'
               link='https://github.com/Jeffiftyone/Fitness_Tracker'
             />
-          <CardItem
-              src={notetaker}
-              title='Note Taker'
-              text='An application that allows the users to create, update and delete notes'
-              label='ExpressJS'
-              link="https://github.com/Jeffiftyone/Note_Taker"
+        
+          </ul>
+          <ul className='cards__items'>
+  
+
+              <CardItem
+              src={teachthrutalk}
+              title='Teach Thru Talk'
+              text='A forum style application allowing users to learn different languages by highlighting unknown phrases to translate to their native language and having conversations from other users all over the world. '
+              label='MongoDB/ExpressJS/Bootstrap'
+              link='https://github.com/FilipAlH/TeachThruTalk'
             />
+              <CardItem
+              src= {devspace}
+              title='Dev Space'
+              text='An instant chat application for developers to learn, communicate, and collaborate. Created for developers by developers.'
+              label='MongoDB/Express/React/Node/Firebase'
+              link='https://github.com/nikhil-kharbanda/UofT_DevSpace'
+            />
+        
              <CardItem
               src= {weather}
               title='Weather Dashboard'
