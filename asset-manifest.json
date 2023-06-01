@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.720305af.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.84b828dd.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.84b828dd.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.090e35d4.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.090e35d4.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.cbad1128.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.cbad1128.js.map",
     "static/css/2.14ee1281.chunk.css": "/React_Portfolio/static/css/2.14ee1281.chunk.css",
     "static/js/2.012fade2.chunk.js": "/React_Portfolio/static/js/2.012fade2.chunk.js",
     "static/js/2.012fade2.chunk.js.map": "/React_Portfolio/static/js/2.012fade2.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.0e198345de58967217bb4af94d7e7f60.js": "/React_Portfolio/precache-manifest.0e198345de58967217bb4af94d7e7f60.js",
+    "precache-manifest.606e27b49ffee02cf494011e0bf1073a.js": "/React_Portfolio/precache-manifest.606e27b49ffee02cf494011e0bf1073a.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.14ee1281.chunk.css.map": "/React_Portfolio/static/css/2.14ee1281.chunk.css.map",
     "static/css/main.720305af.chunk.css.map": "/React_Portfolio/static/css/main.720305af.chunk.css.map",
     "static/js/2.012fade2.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.012fade2.chunk.js.LICENSE.txt",
     "static/media/CodingQuiz.PNG": "/React_Portfolio/static/media/CodingQuiz.f4da388c.PNG",
-    "static/media/Jeffrey_Beh_Resume_2022.pdf": "/React_Portfolio/static/media/Jeffrey_Beh_Resume_2022.4ae9bf74.pdf",
+    "static/media/Jeffrey_Beh_Resume_2023.pdf": "/React_Portfolio/static/media/Jeffrey_Beh_Resume_2023.e537d823.pdf",
     "static/media/Notetaker.PNG": "/React_Portfolio/static/media/Notetaker.d2d067a5.PNG",
     "static/media/Passwordgen.PNG": "/React_Portfolio/static/media/Passwordgen.62811769.PNG",
+    "static/media/QuizApp.PNG": "/React_Portfolio/static/media/QuizApp.c02c07ce.PNG",
     "static/media/devspace.PNG": "/React_Portfolio/static/media/devspace.8f5fe725.PNG",
     "static/media/fitness.PNG": "/React_Portfolio/static/media/fitness.ce621242.PNG",
     "static/media/App.css": "/React_Portfolio/static/media/img13.e5051926.jpg",
@@ -30,6 +31,6 @@
     "static/css/2.14ee1281.chunk.css",
     "static/js/2.012fade2.chunk.js",
     "static/css/main.720305af.chunk.css",
-    "static/js/main.84b828dd.chunk.js"
+    "static/js/main.090e35d4.chunk.js"
   ]
 }
