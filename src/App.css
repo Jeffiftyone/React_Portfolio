@@ -61,13 +61,13 @@
   font-size: 125%;;
 
 }
-@media (min-width:961px) {
+@media (min-width:960px) {
   .aboutme {
     height: 100vh;
   }
   
 }
-@media (max-width:960px) {
+@media (max-width:959px) {
   .aboutme-container {
     display: block;
   }
